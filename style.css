@@ -51,12 +51,17 @@ header{ /* editando o menu */
     height: 100%;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 nav{  /* tag de navegacao/menu  */
     display: flex;
     gap: 2rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0, 0.1);
 }
 
 .nav-links{ /* editando os links da barra de navegacao/menu */
